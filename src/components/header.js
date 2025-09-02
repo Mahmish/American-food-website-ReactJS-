@@ -1,8 +1,25 @@
-import React from 'react';
+// import React from 'react';
 import logo from '../assets/images/logo.png';
 import {Link} from 'react-router-dom';
+import React, { useState, useRef, useEffect } from "react";
 
-export default function header() {
+export default function SearchBox() {
+  const [showSearch, setShowSearch] = useState(false);
+  const searchRef = useRef(null);
+
+  // Close input when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (searchRef.current && !searchRef.current.contains(event.target)) {
+        setShowSearch(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+    
   return (
     <div>
        <header>
@@ -39,21 +56,34 @@ export default function header() {
                         </div>
                     </div>
                     {/* col section  */}
-                    <div class="search-register align-items-center">
-                        <div className='search-col'>
-                            <form>
-                            <input className='d-none d-sm-block' type="text" />
-                            <button className='search_btn' type='submit'><i classNamme="fa-solid fa-magnifying-glass"></i></button>
-                            </form>
-                        
-                        </div>
+                    <div className="search-col" ref={searchRef}>
+                    <form>
+                        {showSearch && (
+                        <input
+                            className="search-input"
+                            type="text"
+                            placeholder="Search..."
+                            autoFocus
+                        />
+                        )}
+                        <button
+                        className="search_btn"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            setShowSearch(!showSearch);
+                        }}
+                        >
+                        <i className="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
                         <Link to="/register"><i class="fa-solid fa-user"></i></Link>
                         <Link><i class="fa-solid fa-heart"></i></Link>
                         <Link to="/cart"><i class="fa-solid fa-cart-shopping"></i></Link>
                     </div>
+                    </div>
+                    
                 </div>
             </div>
-        </div>
         
               {/* col navbar section  */}
             <nav class="navbar navbar-expand-lg ">

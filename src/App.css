@@ -1,3 +1,6 @@
+@import url('https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 /* top header */
 
 .top-header{
@@ -28,12 +31,9 @@
   color: white;
   font-size: 25px;
 }
-.search button{
-  border: none;
-  background-color: transparent;
+.search-col{
+  display: none;
 }
-
-
 
      /* register */
 .register{
@@ -91,7 +91,10 @@
   text-transform: uppercase;
   color: #3d5f00;
 }
-
+.search button{
+  border: none;
+  background-color: transparent;
+}
 /* banner */
 .banner{
   background-image: url('./assets/images/banner.jpg');
@@ -206,8 +209,8 @@
 /* about us 1page */
 .aboutImage{
   background-image: linear-gradient(rgba(0, 128, 0, 0.3), rgba(0, 128, 0, 0.3)), url('./assets/images/about-img.png');
-  width: 88%;
-  height: 107%;
+  width: 87%;
+  height: 527px;
   position: relative;
   margin-left: 30px;
   background-repeat: no-repeat;
@@ -235,8 +238,8 @@
 /* about us 2 page */
 .aboutUsImage{
   background-image: linear-gradient(rgba(0, 128, 0, 0.3), rgba(0, 128, 0, 0.3)), url('./assets/images/about-img.png');
-  width: 85%;
-  height: 107%;
+  width: 87%;
+  height: 527px;
   position: relative;
   margin-left: -33px;
 }
@@ -257,8 +260,6 @@
   right: -6%;
   top: -6%;
 }
-
-
 /* service */
 .service{
   padding: 50px 0;
@@ -879,6 +880,7 @@ td input {
     border: 1px solid black;
 }
 @media only screen and (min-width: 0px) and (max-width: 576px){
+  
   /* top header  */
   .logo-column{
       order: 1;
@@ -889,28 +891,36 @@ td input {
   .register{
       display: none;
   }
-  
-  .search-register{
+  .search-input {
+    height: 29px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+  .search-col{
+    display: block;
       order: 2;
       display: flex;
       justify-content: flex-end;
       gap: 20px;
-      color: white;
       font-size: 20px;
       margin: 10px 0;
   }
-  .search_btn{
-    background-color: transparent;
+  .search-col a{
+      color: white;
+
+  }
+  .search-col button{
     border: none;
+    background-color: transparent;
   }
-  .search-col form{
-    height: 20px;
-    width: 20px;
-  }
-  .search-col i{
-    font-size: 25px;
+  .search_btn i{
     color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
   }
+
   /* navbar  */
   .bottom-header{
       display: none;
@@ -945,8 +955,8 @@ td input {
   }
   /* about  */
   .about-title span {
-      font-size: 53px;
-      top: -4%;
+      font-size: 43px;
+      top: -1%;
   }
 
   .about-title h2 {
@@ -1639,7 +1649,7 @@ td input {
   margin: 30px 10%;
   }
   .aboutImage {
-  height: 100%;
+  height: 527px;
   }
   .about-us:before {
   top: 19.6%;
@@ -1649,7 +1659,7 @@ td input {
   font-size: 37.17px;
   }
   .aboutUsImage {
-  height: 100%;
+  height: 527px;
   margin-left: 0;
   margin-right: 10px;
   }
@@ -1755,10 +1765,12 @@ td input {
   }
   /* about us image */
   .aboutImage {
-    height: 97%;
+    width: 100%;
+  height: 527px;
   }
   .aboutUsImage {
-    height: 96%;
+     width: 100%;
+  height: 527px;
   }
   .aboutUsImage {
   width: 98%;
