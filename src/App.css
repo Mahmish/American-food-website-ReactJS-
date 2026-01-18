@@ -241,7 +241,7 @@
   width: 87%;
   height: 527px;
   position: relative;
-  margin-left: -33px;
+  margin-left: -10px;
 }
 
 .youtube-img img{
@@ -954,11 +954,10 @@ td input {
   font-size: 15.83px;
   }
   /* about  */
-  .about-title span {
-      font-size: 43px;
-      top: -1%;
-  }
-
+    .about-title span {
+        font-size: 36px;
+        top: 0%;
+    }
   .about-title h2 {
   font-size: 40px;
   }
@@ -981,7 +980,9 @@ td input {
       background-position: center;
       margin: 0 auto;
       margin-top: 50px;
-
+  }
+  .about-content {
+    margin-bottom: 40px;
   }
   .youtubeUs-img img {
   right: 34%;
@@ -1244,6 +1245,7 @@ td input {
   /* banner  */
   .banner {
       background-position: center;
+      height: 50vh;
   }
  .banner-title h2 {
     font-size: 55.67px;
@@ -1495,6 +1497,9 @@ td input {
   }
   .banner-title p {
     margin-right: 31%;
+  }
+  .banner{
+    height: 50vh;
   }
   /* about section  */
   .about-title span {
