@@ -19,7 +19,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="American-food-website-ReactJS-">
         <Header/>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
