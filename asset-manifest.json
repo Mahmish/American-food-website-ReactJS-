@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/American-food-website-ReactJS-/static/css/main.e5ccfec4.css",
+    "main.js": "/American-food-website-ReactJS-/static/js/main.67d50604.js",
+    "static/js/453.69ccc9c7.chunk.js": "/American-food-website-ReactJS-/static/js/453.69ccc9c7.chunk.js",
+    "static/media/about-img.png": "/American-food-website-ReactJS-/static/media/about-img.58e8bc18d2f34f079855.png",
+    "static/media/offer1.jpg": "/American-food-website-ReactJS-/static/media/offer1.211227199ced87c64091.jpg",
+    "static/media/special-offer2.jpg": "/American-food-website-ReactJS-/static/media/special-offer2.e3549f05456074f0f952.jpg",
+    "static/media/banner.jpg": "/American-food-website-ReactJS-/static/media/banner.fe09a2eba6db8af36cd6.jpg",
+    "static/media/blog-image-2.jpg": "/American-food-website-ReactJS-/static/media/blog-image-2.33fa2cf4acde0f68af1f.jpg",
+    "static/media/service-image3.jpg": "/American-food-website-ReactJS-/static/media/service-image3.c7139b1102d04df6f58f.jpg",
+    "static/media/service-image-1.jpg": "/American-food-website-ReactJS-/static/media/service-image-1.388079071a83a4a03133.jpg",
+    "static/media/blog-image1.jpg": "/American-food-website-ReactJS-/static/media/blog-image1.0d920aa73698882bc0cd.jpg",
+    "static/media/service-image-2.jpg": "/American-food-website-ReactJS-/static/media/service-image-2.6b8c3b3d46fef6b1259d.jpg",
+    "index.html": "/American-food-website-ReactJS-/index.html",
+    "main.e5ccfec4.css.map": "/American-food-website-ReactJS-/static/css/main.e5ccfec4.css.map",
+    "main.67d50604.js.map": "/American-food-website-ReactJS-/static/js/main.67d50604.js.map",
+    "453.69ccc9c7.chunk.js.map": "/American-food-website-ReactJS-/static/js/453.69ccc9c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5ccfec4.css",
+    "static/js/main.67d50604.js"
+  ]
+}
