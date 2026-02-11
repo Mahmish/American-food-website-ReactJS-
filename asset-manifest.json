@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/American-food-website-ReactJS-/static/css/main.e5ccfec4.css",
-    "main.js": "/American-food-website-ReactJS-/static/js/main.272d44bd.js",
+    "main.js": "/American-food-website-ReactJS-/static/js/main.32b724d9.js",
     "static/js/453.0a3ad78f.chunk.js": "/American-food-website-ReactJS-/static/js/453.0a3ad78f.chunk.js",
     "static/media/about-img.png": "/American-food-website-ReactJS-/static/media/about-img.58e8bc18d2f34f079855.png",
     "static/media/offer1.jpg": "/American-food-website-ReactJS-/static/media/offer1.211227199ced87c64091.jpg",
@@ -14,11 +14,11 @@
     "static/media/service-image-2.jpg": "/American-food-website-ReactJS-/static/media/service-image-2.6b8c3b3d46fef6b1259d.jpg",
     "index.html": "/American-food-website-ReactJS-/index.html",
     "main.e5ccfec4.css.map": "/American-food-website-ReactJS-/static/css/main.e5ccfec4.css.map",
-    "main.272d44bd.js.map": "/American-food-website-ReactJS-/static/js/main.272d44bd.js.map",
+    "main.32b724d9.js.map": "/American-food-website-ReactJS-/static/js/main.32b724d9.js.map",
     "453.0a3ad78f.chunk.js.map": "/American-food-website-ReactJS-/static/js/453.0a3ad78f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5ccfec4.css",
-    "static/js/main.272d44bd.js"
+    "static/js/main.32b724d9.js"
   ]
 }
