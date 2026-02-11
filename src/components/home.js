@@ -9,7 +9,7 @@ import Blog from './blog';
 import Banner from './banner';
 
 
-export default function index() {
+export default function home() {
   return (
     <div>
       <Banner/>
